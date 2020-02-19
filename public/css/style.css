@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav > ul > li {
+    display: inline-block;
+    padding : 16px;
+
+}
+.products p{
+    margin: 5px 15px;
+}
+.products div {
+    margin: 10px auto;
+}
+a{
+    color: #fff;
+}
+header {
+    background-color: #333;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+}
+
+header h1 {
+    font-size: 1.5em;
+    margin: auto 15px 15px 15px;
+    color: #fff;
+}
+
+footer {
+    background-color: pink;
+    text-align: center;
+}
+.errors{
+    background-color:lightyellow;
+    color: red;
+}

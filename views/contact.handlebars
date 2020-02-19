@@ -1,0 +1,20 @@
+{{#each Messages}}
+        <div class="errors">{{this}}</div>
+{{/each}}
+<p>
+    {{Messages}}
+</p>
+
+<form method="POST" action="/contact-us">
+    <label for="firstName">First Name</label>
+    <input type="text" id="firstName" name="firstName" value="{{firstName}}"> <br>
+    
+    <label for="lasttName">Last Name</label>
+    <input type="text" id="lastName" name="lastName" value="{{lastName}}"> <br>
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message">{{message}}</textarea> <br>
+
+    <input type="submit" value="Contact Us">
+
+</form>
